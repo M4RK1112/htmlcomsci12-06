@@ -1,0 +1,71 @@
+<style>
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+
+  p {
+    background-image: url('data:image/jpeg;base64,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');
+  }
+</style>
+<div>
+  </head>
+
+
+  <h1>
+    <center> ✠ <img src="https://fontmeme.com/permalink/240304/6c94133db802eb6adbbca7244ff2ec88.png" > ✠
+
+      
+  </h1>
+  </center>
+
+
+ 
+
+
+  <ul>
+    <li><a href="home.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="history.html">History</a></li>
+    <li><a href="products.html">Products</a></li>
+    <li><a href="stores.html">Stores</a></li>
+
+</div>
+
+
+<div>
+
+  <body>
+     <font size="+3">
+    Founded by 1988 by Richard Stark, Leonard Kamhout and John Bowman. Due to there was not a big market but high demand
+    for leather goods such as motorcycle jacket. Started out, the brand was creatating clothing for the movie Chopper
+    Chicks in zombietown, which gave the brand it inital apparent to the public. From then artist from band like Motley
+    Crue and Gun N' Roses. In 1996, Chrome Heart opened its first
+    ever retail location in New York, which help it transition from a Rock n roll brand to motorcycle to a streetwear
+    brand. with the famous quote from the founder "Chrome Heart is not in the fashion business, chrome heart is in the
+    chrome heart business",had the whole fashion world loves and adores him.
+</font>
+    <div><img src="https://media2.charityengine.net/WF/_transactionServerFiles/1000/2021/1/4/richard-stark.jpg" alt="dn Trulli">
+
+</div>
+  </body> 
+</div>
